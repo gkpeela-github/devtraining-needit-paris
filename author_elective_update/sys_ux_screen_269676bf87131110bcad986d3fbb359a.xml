@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="NeedIt Experience Config">c355fddd1b82301068dd5464604bcb92</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "clawfyqtjjaaaaffjddnhhthzxpjjbgff",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_58872_needit.CANVAS_MODAL#CLOSED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_58872_needit.CANVAS_MODAL#CLOSED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.CANVAS_MODAL#CLOSED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalInstanceId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalInstanceId" ]
+            }
+          }
+        }
+      },
+      "sysId" : "5527ec5cf5ac11c053169844f273481a"
+    },
+    "operation" : null,
+    "targetId" : "clawfyqtiiaaaaffiddnhhtwasunzlh",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Home">569676bf87131110bcad986d3fbb3594</macroponent>
+        <macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Sys Admin home - 3.0.0 preview.</name>
+        <order>9999</order>
+        <parent_macroponent display_value="UXR Blank AppShell(To be deprecated)">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen display_value="Sys Admin home">be3f9e631b46f41068dd5464604bcb2d</rollback_screen>
+        <screen_condition/>
+        <screen_type display_value="Home">b476f9111bc2301068dd5464604bcb8d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 10:13:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>269676bf87131110bcad986d3fbb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys Admin home - 3.0.0 preview.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_269676bf87131110bcad986d3fbb359a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-28 10:13:18</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=269676bf87131110bcad986d3fbb359a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>04244e6a1b5b6cd0e84d2f8dee4bcb57</instance_id>
+        <instance_name>dev110692</instance_name>
+        <name>sys_ux_screen_269676bf87131110bcad986d3fbb359a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="NeedIt Experience Config">c355fddd1b82301068dd5464604bcb92</app_config><description/><event_mappings>[ {
+  "eventMappingId" : "clawfyqtjjaaaaffjddnhhthzxpjjbgff",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_58872_needit.CANVAS_MODAL#CLOSED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_58872_needit.CANVAS_MODAL#CLOSED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.CANVAS_MODAL#CLOSED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalInstanceId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalInstanceId" ]
+            }
+          }
+        }
+      },
+      "sysId" : "5527ec5cf5ac11c053169844f273481a"
+    },
+    "operation" : null,
+    "targetId" : "clawfyqtiiaaaaffiddnhhtwasunzlh",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings><macroponent display_value="Home">569676bf87131110bcad986d3fbb3594</macroponent><macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>Sys Admin home - 3.0.0 preview.</name><order>9999</order><parent_macroponent display_value="UXR Blank AppShell(To be deprecated)">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen display_value="Sys Admin home">be3f9e631b46f41068dd5464604bcb2d</rollback_screen><screen_condition/><screen_type display_value="Home">b476f9111bc2301068dd5464604bcb8d</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-28 10:13:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>269676bf87131110bcad986d3fbb359a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sys Admin home - 3.0.0 preview.</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_screen_269676bf87131110bcad986d3fbb359a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-28 10:13:18</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=269676bf87131110bcad986d3fbb359a"/></record_update>]]></payload>
+        <payload_hash>-351985042</payload_hash>
+        <record_name>Sys Admin home - 3.0.0 preview.</record_name>
+        <reverted_from/>
+        <source>57fe2aeb87501110bcad986d3fbb35de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 10:13:18</sys_created_on>
+        <sys_id>a69676bf87131110bcad986d3fbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184bdba10a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-28 10:13:18</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>ee9676bf79131110fca4951890449f9b</update_guid>
+        <update_guid_history>ee9676bf79131110fca4951890449f9b:-351985042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 10:24:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>14499f28dda84f5094d7eaeefaa44961</sys_id>
+        <sys_metadata>269676bf87131110bcad986d3fbb359a</sys_metadata>
+        <sys_name>Sys Admin home - 3.0.0 preview.</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_269676bf87131110bcad986d3fbb359a</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_269676bf87131110bcad986d3fbb359a">a69676bf87131110bcad986d3fbb359c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
